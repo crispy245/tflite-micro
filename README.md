@@ -1,4 +1,5 @@
 <!--ts-->
+   Go [here](https://github.com/crispy245/tflite-micro/tree/main/tensorflow/lite/micro/tools/make/targets/serv) for instructions to compile for SERV.
    * [TensorFlow Lite for Microcontrollers](#tensorflow-lite-for-microcontrollers)
    * [Build Status](#build-status)
       * [Official Builds](#official-builds)
