@@ -1,6 +1,6 @@
 
 # Settings for RISCV 32-bit MCU toolchain.
-ifeq ($(TARGET), mcu_riscv)
+
 
 
 TARGET_TOOLCHAIN_PREFIX := riscv32-unknown-elf-
@@ -67,6 +67,6 @@ TARGET_TOOLCHAIN_PREFIX := riscv32-unknown-elf-
   $(BINDIR)/%.bin: $(BINDIR)/%
 		@mkdir -p $(dir $@)
 		$(OBJCOPY) $< $@ -O binary
-endif
+
 
   
